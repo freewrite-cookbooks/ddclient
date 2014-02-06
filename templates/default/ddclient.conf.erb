@@ -10,4 +10,4 @@ server=<%= node[:ddclient][:server] %>
 ssl=<%= node[:ddclient][:ssl] %>
 syslog=<%= node[:ddclient][:syslog] %>
 use=<%= node[:ddclient][:use] %>
-<= node[:ddclient][:records] %>
+<%= node[:ddclient][:records] %>
